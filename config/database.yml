@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  host: localhost
+  port: 5432
+  encoding: utf-8
+  database: magict
+  username: postgres
+  password: 123qwe!@#
+
+test:
+  adapter: postgresql
+  host: localhost
+  port: 5432
+  encoding: utf-8
+  database: magict_test
+  username: postgres
+  password: 123qwe!@#
+
+production:
+  adapter: postgresql
+  host: localhost
+  port: 5432
+  encoding: utf-8
+  database: magict
+  username: postgres
+  password: 123qwe!@#

@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  host: 192.168.144.36
+  port: 5432
+  encoding: utf-8
+  database: magict_result
+  username: postgres
+  password: www.liuwm.c0m
+
+test:
+  adapter: postgresql
+  host: 192.168.144.36
+  port: 5432
+  encoding: utf-8
+  database: magict_result
+  username: postgres
+  password: www.liuwm.c0m
+
+production:
+  adapter: postgresql
+  host: 192.168.144.36
+  port: 5432
+  encoding: utf-8
+  database: magict_result
+  username: postgres
+  password: www.liuwm.c0m
