@@ -10,10 +10,10 @@ Dir.mkdir('log') unless File.exist?('log')
 logger = nil
 case ENV["RACK_ENV"]
 when "production"
-  logger = MagicT::API::Logger.new("log/production.log")
+  logger = MagicT::API::Logger.new(ENV['RACK_ROOT'] + "/log/production.log")
   logger.level = MagicT::API::Logger::WARN
 when "development"
-  logger = MagicT::API::Logger.new("log/developemtn.log")
+  logger = MagicT::API::Logger.new(ENV['RACK_ROOT'] + "/log/developemtn.log")
   logger.level = MagicT::API::Logger::DEBUG
 else
   logger = MagicT::API::Logger.new("/dev/null")
