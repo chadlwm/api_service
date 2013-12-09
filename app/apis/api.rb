@@ -25,8 +25,7 @@ module MagicT
 
     desc "test get data from db"
     get :info do
-      a = {'result' => 'success'}
-      {'rest' => a.to_s}
+      {'result' => 'success'}
     end
   end
 end

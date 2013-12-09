@@ -12,8 +12,21 @@ describe MagicT::API do
       it "returns data info from database" do
         get "/v1/info"
         last_response.status.should == 200
-        JSON.parse(last_response.body).should == []
+        JSON.parse(last_response.body).should == {'result' => 'success'}
       end
     end
+
+    describe "POST /v1/do" do
+      it "post log data to server" do
+        log_data = {"login_name" => "chad test","function_name" => "grape api test","function_data" => "\/v1/do","mac_address" => "FE:FE:FE:FE","remarks" => "this is a api frameword test ","pc_further_info" => "so is sinature test","target_product" => "gws test"}
+        p log_data
+        p "============="        
+        p log_data.to_s.gsub('=>', ':')
+        post "/v1/do", {:do_data => log_data.to_s.gsub('=>',':') }
+        last_response.status.should == 200
+        JSON.parse(last_response.body).should == {'result' => 'success'}
+      end
+    end
+
   end
 end

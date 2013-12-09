@@ -15,7 +15,7 @@ logger = nil
 case ENV["RACK_ENV"]
 when "production"
   logger = MagicT::API::Logger.new("log/production.log")
-  logger.level = MagicT::API::Logger::DEBUG
+  logger.level = MagicT::API::Logger::WARN
 when "development"
   logger = MagicT::API::Logger.new("log/developemtn.log")
   logger.level = MagicT::API::Logger::DEBUG
