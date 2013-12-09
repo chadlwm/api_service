@@ -11,16 +11,17 @@ module MagicT
 
     desc "record the log data with post"
     post :do do
-      p params
       log = Log.new
       log.remote_ip = request.env["HTTP_X_FORWARDED_FOR"] || request.ip
       log.create_info(JSON.parse(params["do_data"]))
       if(log.save)
-        ret = {'result' => 'success', 'result-code' => 200}
+        status 200
+        result = {'result' => 'success', 'result-code' => 200}
       else
-        ret = {'result' => 'failed', 'result-code' => 500}
+        status 500
+        result = {'result' => 'failed', 'result-code' => 500}
       end
-      #{'name' => 'chad', 'description' => 'this is public time line.'}
+      result
     end
 
     desc "test get data from db"
