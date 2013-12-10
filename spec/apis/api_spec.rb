@@ -12,7 +12,7 @@ describe MagicT::API do
       it "returns data info from database" do
         get "/v1/info"
         last_response.status.should == 200
-        JSON.parse(last_response.body).should == {'result' => 'success'}
+        JSON.parse(last_response.body).should == {'result' => 'success', 'result-code' => 200, 'message' => 'when you see this mesage, that means the server is running and serving for you, thans for using MagicT.'}
       end
     end
 

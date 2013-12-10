@@ -26,7 +26,9 @@ module MagicT
 
     desc "test get data from db"
     get :info do
-      {'result' => 'success'}
+      {'result'      => 'success', 
+       'result-code' => 200, 
+       'message'     => 'when you see this mesage, that means the server is running and serving for you, thans for using MagicT.'}
     end
   end
 end
