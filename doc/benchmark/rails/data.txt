@@ -1,0 +1,417 @@
+10522  906.6 MB  24.4 MB  Passenger RackApp: /home/chad/workspace/glodon/magic_trace_web
+10530  906.7 MB  22.1 MB  Passenger RackApp: /home/chad/workspace/glodon/magic_trace_web
+10538  906.8 MB  22.1 MB  Passenger RackApp: /home/chad/workspace/glodon/magic_trace_web
+10546  906.9 MB  22.1 MB  Passenger RackApp: /home/chad/workspace/glodon/magic_trace_web
+10554  907.0 MB  22.1 MB  Passenger RackApp: /home/chad/workspace/glodon/magic_trace_web
+10562  907.0 MB  22.1 MB  Passenger RackApp: /home/chad/workspace/glodon/magic_trace_web
+
+
+[chad@m]:rails$ bombardment url.txt 10 10 20 1
+Starting run number 1
+** SIEGE 3.0.5
+** Preparing 10 concurrent users for battle.
+The server is now under siege...
+
+Lifting the server siege...      done.
+
+Transactions:		        1066 hits
+Availability:		      100.00 %
+Elapsed time:		       59.70 secs
+Data transferred:	        0.02 MB
+Response time:		        0.06 secs
+Transaction rate:	       17.86 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		        1.01
+Successful transactions:        1066
+Failed transactions:	           0
+Longest transaction:	        3.61
+Shortest transaction:	        0.00
+ 
+Starting run number 2
+** SIEGE 3.0.5
+** Preparing 20 concurrent users for battle.
+The server is now under siege...
+
+Lifting the server siege...      done.
+
+Transactions:		        2279 hits
+Availability:		      100.00 %
+Elapsed time:		       59.99 secs
+Data transferred:	        0.04 MB
+Response time:		        0.03 secs
+Transaction rate:	       37.99 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		        1.03
+Successful transactions:        2279
+Failed transactions:	           0
+Longest transaction:	        0.25
+Shortest transaction:	        0.00
+ 
+Starting run number 3
+** SIEGE 3.0.5
+** Preparing 30 concurrent users for battle.
+The server is now under siege...
+
+Lifting the server siege...      done.
+
+Transactions:		        3446 hits
+Availability:		      100.00 %
+Elapsed time:		       59.99 secs
+Data transferred:	        0.07 MB
+Response time:		        0.03 secs
+Transaction rate:	       57.44 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		        1.84
+Successful transactions:        3446
+Failed transactions:	           0
+Longest transaction:	        0.33
+Shortest transaction:	        0.00
+ 
+Starting run number 4
+** SIEGE 3.0.5
+** Preparing 40 concurrent users for battle.
+The server is now under siege...
+
+Lifting the server siege...      done.
+
+Transactions:		        4443 hits
+Availability:		      100.00 %
+Elapsed time:		       59.98 secs
+Data transferred:	        0.08 MB
+Response time:		        0.03 secs
+Transaction rate:	       74.07 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		        2.46
+Successful transactions:        4443
+Failed transactions:	           0
+Longest transaction:	        0.19
+Shortest transaction:	        0.00
+ 
+Starting run number 5
+** SIEGE 3.0.5
+** Preparing 50 concurrent users for battle.
+The server is now under siege...
+
+Lifting the server siege...      done.
+
+Transactions:		        5497 hits
+Availability:		      100.00 %
+Elapsed time:		       59.99 secs
+Data transferred:	        0.10 MB
+Response time:		        0.04 secs
+Transaction rate:	       91.63 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		        3.47
+Successful transactions:        5497
+Failed transactions:	           0
+Longest transaction:	        0.44
+Shortest transaction:	        0.00
+ 
+Starting run number 6
+** SIEGE 3.0.5
+** Preparing 60 concurrent users for battle.
+The server is now under siege...
+
+Lifting the server siege...      done.
+
+Transactions:		        6685 hits
+Availability:		      100.00 %
+Elapsed time:		       59.98 secs
+Data transferred:	        0.13 MB
+Response time:		        0.04 secs
+Transaction rate:	      111.45 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		        4.31
+Successful transactions:        6685
+Failed transactions:	           0
+Longest transaction:	        0.38
+Shortest transaction:	        0.00
+ 
+Starting run number 7
+** SIEGE 3.0.5
+** Preparing 70 concurrent users for battle.
+The server is now under siege...
+
+Lifting the server siege...      done.
+
+Transactions:		        7790 hits
+Availability:		      100.00 %
+Elapsed time:		       59.98 secs
+Data transferred:	        0.15 MB
+Response time:		        0.04 secs
+Transaction rate:	      129.88 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		        4.95
+Successful transactions:        7790
+Failed transactions:	           0
+Longest transaction:	        0.26
+Shortest transaction:	        0.00
+ 
+Starting run number 8
+** SIEGE 3.0.5
+** Preparing 80 concurrent users for battle.
+The server is now under siege...
+
+Lifting the server siege...      done.
+
+Transactions:		        8895 hits
+Availability:		      100.00 %
+Elapsed time:		       59.99 secs
+Data transferred:	        0.17 MB
+Response time:		        0.04 secs
+Transaction rate:	      148.27 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		        5.79
+Successful transactions:        8895
+Failed transactions:	           0
+Longest transaction:	        0.28
+Shortest transaction:	        0.00
+ 
+Starting run number 9
+** SIEGE 3.0.5
+** Preparing 90 concurrent users for battle.
+The server is now under siege...
+
+Lifting the server siege...      done.
+
+Transactions:		        9935 hits
+Availability:		      100.00 %
+Elapsed time:		       59.98 secs
+Data transferred:	        0.19 MB
+Response time:		        0.04 secs
+Transaction rate:	      165.64 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		        7.45
+Successful transactions:        9935
+Failed transactions:	           0
+Longest transaction:	        0.34
+Shortest transaction:	        0.00
+ 
+Starting run number 10
+** SIEGE 3.0.5
+** Preparing 100 concurrent users for battle.
+The server is now under siege...
+
+Lifting the server siege...      done.
+
+Transactions:		       10923 hits
+Availability:		      100.00 %
+Elapsed time:		       59.99 secs
+Data transferred:	        0.21 MB
+Response time:		        0.05 secs
+Transaction rate:	      182.08 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		        9.22
+Successful transactions:       10923
+Failed transactions:	           0
+Longest transaction:	        0.46
+Shortest transaction:	        0.00
+ 
+Starting run number 11
+** SIEGE 3.0.5
+** Preparing 110 concurrent users for battle.
+The server is now under siege...
+
+Lifting the server siege...      done.
+
+Transactions:		       11754 hits
+Availability:		      100.00 %
+Elapsed time:		       59.98 secs
+Data transferred:	        0.22 MB
+Response time:		        0.07 secs
+Transaction rate:	      195.97 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		       13.15
+Successful transactions:       11754
+Failed transactions:	           0
+Longest transaction:	        0.54
+Shortest transaction:	        0.00
+ 
+Starting run number 12
+** SIEGE 3.0.5
+** Preparing 120 concurrent users for battle.
+The server is now under siege...
+
+Lifting the server siege...      done.
+
+Transactions:		       11871 hits
+Availability:		      100.00 %
+Elapsed time:		       59.98 secs
+Data transferred:	        0.23 MB
+Response time:		        0.10 secs
+Transaction rate:	      197.92 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		       19.99
+Successful transactions:       11871
+Failed transactions:	           0
+Longest transaction:	        0.36
+Shortest transaction:	        0.01
+ 
+Starting run number 13
+** SIEGE 3.0.5
+** Preparing 130 concurrent users for battle.
+The server is now under siege...
+
+Lifting the server siege...      done.
+
+Transactions:		       11799 hits
+Availability:		      100.00 %
+Elapsed time:		       59.98 secs
+Data transferred:	        0.23 MB
+Response time:		        0.16 secs
+Transaction rate:	      196.72 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		       32.31
+Successful transactions:       11799
+Failed transactions:	           0
+Longest transaction:	        0.52
+Shortest transaction:	        0.01
+ 
+Starting run number 14
+** SIEGE 3.0.5
+** Preparing 140 concurrent users for battle.
+The server is now under siege...
+
+Lifting the server siege...      done.
+
+Transactions:		       12071 hits
+Availability:		      100.00 %
+Elapsed time:		       59.98 secs
+Data transferred:	        0.23 MB
+Response time:		        0.20 secs
+Transaction rate:	      201.25 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		       39.57
+Successful transactions:       12071
+Failed transactions:	           0
+Longest transaction:	        0.56
+Shortest transaction:	        0.02
+ 
+Starting run number 15
+** SIEGE 3.0.5
+** Preparing 150 concurrent users for battle.
+The server is now under siege...
+
+Lifting the server siege...      done.
+
+Transactions:		       11723 hits
+Availability:		      100.00 %
+Elapsed time:		       59.98 secs
+Data transferred:	        0.22 MB
+Response time:		        0.25 secs
+Transaction rate:	      195.45 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		       49.05
+Successful transactions:       11723
+Failed transactions:	           0
+Longest transaction:	        0.65
+Shortest transaction:	        0.00
+ 
+Starting run number 16
+** SIEGE 3.0.5
+** Preparing 160 concurrent users for battle.
+The server is now under siege...
+
+Lifting the server siege...      done.
+
+Transactions:		       11847 hits
+Availability:		       99.90 %
+Elapsed time:		       59.98 secs
+Data transferred:	        0.23 MB
+Response time:		        0.31 secs
+Transaction rate:	      197.52 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		       61.72
+Successful transactions:       11847
+Failed transactions:	          12
+Longest transaction:	        0.73
+Shortest transaction:	        0.00
+ 
+Starting run number 17
+** SIEGE 3.0.5
+** Preparing 170 concurrent users for battle.
+The server is now under siege...
+
+Lifting the server siege...      done.
+
+Transactions:		       11613 hits
+Availability:		       99.23 %
+Elapsed time:		       59.98 secs
+Data transferred:	        0.24 MB
+Response time:		        0.38 secs
+Transaction rate:	      193.61 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		       72.66
+Successful transactions:       11613
+Failed transactions:	          90
+Longest transaction:	        0.77
+Shortest transaction:	        0.00
+ 
+Starting run number 18
+** SIEGE 3.0.5
+** Preparing 180 concurrent users for battle.
+The server is now under siege...
+
+Lifting the server siege...      done.
+
+Transactions:		       11724 hits
+Availability:		       99.31 %
+Elapsed time:		       59.98 secs
+Data transferred:	        0.24 MB
+Response time:		        0.41 secs
+Transaction rate:	      195.47 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		       80.21
+Successful transactions:       11724
+Failed transactions:	          82
+Longest transaction:	        0.83
+Shortest transaction:	        0.00
+ 
+Starting run number 19
+** SIEGE 3.0.5
+** Preparing 190 concurrent users for battle.
+The server is now under siege...
+
+Lifting the server siege...      done.
+
+Transactions:		       11823 hits
+Availability:		       97.93 %
+Elapsed time:		       59.99 secs
+Data transferred:	        0.27 MB
+Response time:		        0.45 secs
+Transaction rate:	      197.08 trans/sec
+Throughput:		        0.00 MB/sec
+Concurrency:		       88.32
+Successful transactions:       11823
+Failed transactions:	         250
+Longest transaction:	        0.77
+Shortest transaction:	        0.00
+ 
+Starting run number 20
+** SIEGE 3.0.5
+** Preparing 200 concurrent users for battle.
+The server is now under siege...
+done.
+siege aborted due to excessive socket failure; you
+can change the failure threshold in $HOME/.siegerc
+
+Transactions:		       10846 hits
+Availability:		       91.35 %
+Elapsed time:		       56.29 secs
+Data transferred:	        0.38 MB
+Response time:		        0.49 secs
+Transaction rate:	      192.68 trans/sec
+Throughput:		        0.01 MB/sec
+Concurrency:		       93.57
+Successful transactions:       10846
+Failed transactions:	        1027
+Longest transaction:	        0.92
+Shortest transaction:	        0.00
+
+
+
+magict=# select count(1) from logs;
+ count  
+--------
+ 178515
+(1 row)

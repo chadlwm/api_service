@@ -27,5 +27,6 @@ class Log < ActiveRecord::Base
   	self.remarks         = log["remarks"]
   	self.pc_further_info = log["pc_further_info"]
   	self.target_product  = log["target_product"]
+  	self.status          = 0
   end
 end

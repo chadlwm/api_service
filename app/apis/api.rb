@@ -28,7 +28,7 @@ module MagicT
     get :info do
       {'result'      => 'success', 
        'result-code' => 200, 
-       'message'     => 'when you see this mesage, that means the server is running and serving for you, thans for using MagicT.'}
+       'message'     => "when you see this mesage, that means the server is running in #{ENV['RACK_ENV']} and serving for you, thans for using MagicT."}
     end
   end
 end

@@ -1,0 +1,1 @@
+http://localhost/v1/do POST do_data={"login_name":"chad","function_name":"grape api","function_data":"v1/do","mac_address":"FE:FE:FE:FE","remarks":"this is a api frameword","pc_further_info":"so is sinature","target_product":"gws"}
